@@ -1,0 +1,32 @@
+{
+    "Ichigo": {
+      "About Me": [
+        {
+            "name": "SOUL SOCIETY ROOFTOP",
+            "img": "images/maps/Corden.webp",
+            "desc": "A classic rooftop in the heart of Soul Society, perfect for high-speed battles.",
+            "location": "Soul Society",
+            "size": "Medium"
+          },
+          { "name": "KARAKURA TOWN", "img": "images/maps/karakura_town.jpg" }
+      ],
+
+
+
+
+      "Hollow Mask": [
+        { "name": "INNER WORLD", "img": "images/maps/hueco_mundo.jpg" },
+        { "name": "HUECO MUNDO", "img": "images/maps/inner_world.jpg" }
+      ]
+    },
+
+
+
+
+    "Rukia Kuchiki": {
+      "Shinigami Robe": [
+        { "name": "Squad 13 Barracks", "img": "images/maps/squad13.jpg" }
+      ]
+    }
+    
+  }

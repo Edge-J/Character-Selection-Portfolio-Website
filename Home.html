@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/gsap.min.js"></script>
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+
+<video class="fullscreen-video" autoplay muted loop>
+  <source src="images/2297636-uhd_3840_2160_30fps.mp4" type="video/mp4">
+  Your browser doesn't support this video
+</video>
+
+<div id="loading">
+  <div id="loading-frame">
+    LOADING...
+  </div>
+</div>
+
+<div class="container">
+  <div id="character"></div>
+
+
+  <div id="map-select" class="hidden">
+    <button class="map-back-btn">BACK</button>
+    <h2 class="map-header">SELECT A STAGE</h2>
+
+    <div class="map-details-panel" id="map-details-panel"></div>
+
+    
+  
+    <div class="angled-slider-wrapper">
+        <div class="angled-slider" id="map-slider">
+          
+        </div>
+        <div class="angled-slider-nav" id="map-slider-nav">
+          
+        </div>
+      </div>
+  </div>
+  
+
+
+
+
+  <div id="costume-box" class="hidden">
+    <div class="costume-title"></div>
+    <div class="costume-options">
+      <img id="costume1" src="" alt="" />
+      <img id="costume2" src="" alt="" />
+      <img id="costume3" src="" alt="" />
+    </div>
+    <div class="costume-label"></div>
+  </div>
+  
+  <ul id="Characters"></ul>
+</div>
+
+<!-- Vertical Scrolling Character Name -->
+<marquee id="name-marquee" class="GeneratedMarquee" direction="right" scrollamount="10" behavior="scroll">
+    Loading character...
+  </marquee>
+  
+
+  <footer id="page-footer">
+    <div class="footer-content">
+      <div class="footer-left">
+        <p>© 2025 JARED EDGE</p>
+        <p>INSPIRED BY BLEACH: REBIRTH OF SOULS</p>
+      </div>
+      <div class="footer-right">
+        <p>↩ RETURN &nbsp; PRESS ENTER/ TO CONFIRM &nbsp; ❔                               </p>
+      </div>
+    </div>
+  </footer>
+  
+  
+  
+
+<!-- Select Character Button -->
+<div id="select-wrapper">
+  <button id="select-btn">SELECT CHARACTER</button>
+</div>
+
+</body>
+</html>

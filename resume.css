@@ -1,0 +1,267 @@
+/* resume.css */
+
+@font-face {
+  font-family: 'BleachFont';
+  src: url('../fonts/Bleach-8jnJ.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-transform: uppercase;
+  font-family: 'Roboto Mono', monospace;
+  background-color: #0d0d0d;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+.parallax-container {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.section {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 20px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.section::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  max-width: 1200px;
+  width: 100%;
+  padding: 40px;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 60, 60, 0.3);
+  opacity: 0;
+  transform: translateY(60px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.section:hover .content {
+  transform: translateZ(20px);
+}
+
+.section.visible .content {
+  opacity: 1 !important;
+  transform: translateY(0);
+}
+
+.hero {
+  background-image: url('../images/maps/softdev_map.png');
+}
+
+.dark {
+  background-image: url('../images/maps/it_intern_map.png');
+}
+
+.light {
+  background-image: url('../images/maps/electrical_map.png');
+}
+
+h1 {
+  font-family: 'BleachFont', sans-serif;
+  font-size: 4rem;
+  color: #ff3c3c;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-family: 'BleachFont', sans-serif;
+  font-size: 2.5rem;
+  color: #ff3c3c;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-family: 'BleachFont', sans-serif;
+  font-size: 1.8rem;
+  color: #ff3c3c;
+  margin-bottom: 15px;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+}
+
+p, li {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 15px;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li::before {
+  content: "⦿ ";
+  color: #ff3c3c;
+  margin-right: 8px;
+}
+
+.job {
+  margin-bottom: 30px;
+  padding: 20px;
+  border-left: 3px solid #ff3c3c;
+  transition: transform 0.3s ease;
+}
+
+.job:hover {
+  transform: translateX(10px);
+}
+
+.footer {
+  background: rgba(0, 0, 0, 0.9);
+  padding: 20px 0;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #999;
+  border-top: 1px solid rgba(255, 60, 60, 0.3);
+}
+
+/* Animation classes */
+.fade-in {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.fade-in.visible {
+  opacity: 1 !important;
+  transform: translateY(0);
+}
+
+
+/* Responsive design */
+@media (max-width: 768px) {
+  h1 {
+      font-size: 2.5rem;
+  }
+
+  h2 {
+      font-size: 2rem;
+  }
+
+  h3 {
+      font-size: 1.5rem;
+  }
+
+  .content {
+      padding: 20px;
+      pointer-events: auto;
+      will-change: transform, opacity;
+      
+  }
+
+  .section {
+      padding: 40px 10px;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0d0d0d;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff3c3c;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff5555;
+}
+
+.nav-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+  padding: 15px 0;
+  border-bottom: 1px solid rgba(255, 60, 60, 0.3);
+}
+
+.nav-menu ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 5px 10px;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.nav-menu a::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #ff3c3c;
+  transition: width 0.3s ease;
+}
+
+.nav-menu a:hover {
+  color: #ff3c3c;
+}
+
+.nav-menu a:hover::after {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .nav-menu ul {
+      flex-wrap: wrap;
+      gap: 15px;
+  }
+
+  .nav-menu a {
+      font-size: 0.9rem;
+  }
+}

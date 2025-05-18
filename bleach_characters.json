@@ -1,0 +1,719 @@
+[
+  {
+    "nickname":"JARED",
+    "class": "DEVELOPER",
+    
+    "type": "DEVELOPER",
+    "name": "JARED Edge",
+    "age": "22",
+    "home": "MIDDLETOWN, DE",
+    "thumbnail": {
+  "small":"images/Jared_headshot1.png",
+  "medium": "images/Jared_headshot1.png",
+  "large":"images/Jared_headshot1.png",
+  "default": "images/Jared_headshot1.png"
+},
+"costumes": [
+  {
+    "name": "About Me",
+    "img": "images/Jared_outfit1.png",
+    "maps": [
+      { "name": "Soul Society - Courtyard", "img": "images/maps/Corden.webp" },
+      { "name": "Training Grounds", "img": "images/maps/karakura_day.jpg" }
+    ]
+  },
+  {
+    "name": "Work Experience",
+    "img": "images/Jared_outfit3.png",
+    "maps": [
+      { "name": "Hueco Mundo", "img": "images/maps/urahara-shop.avif" },
+      { "name": "Las Noches", "img": "images/maps/hueco-Mundo-Bleach.avif" }
+    ]
+  },
+  {
+    "name": "Projects",
+    "img": "images/Jared_outfit2.png",
+    "maps": [
+      { "name": "Hueco Mundo", "img": "images/maps/hueco.jpg" },
+      { "name": "Las Noches", "img": "images/maps/las_noches.jpg" }
+    ]
+  }
+]
+
+   
+  },
+  {
+    "nickname": "Recruiter",
+    "class": "Work",
+    
+    "type": "Work",
+    "name": "Recruiter",
+    "age": "Alive",
+    "home": "Unknown",
+    "thumbnail": {
+      "small": "images/recruiter_head.png",
+      "medium": "images/recruiter_head.png",
+      "large": "images/recruiter_head.png",
+      "default": "images/recruiter_head.png"
+    },
+    "costumes": [
+    { "name": "Skills", "img": "images/recruiter_1.png" },
+    { "name": "Experience", "img": "images/recruiter_2.png" },
+    { "name": "Projects", "img": "images/recruiter.png" }
+  ]
+  },
+  {
+    "nickname": "Stalker",
+    "class": "Observer",
+    "class_ability": [
+      {
+        "type": "Observer"
+      }
+    ],
+    "quote": "I\u2019m not a child. I\u2019m a captain.",
+    "type": "Observer",
+    "name": "Stalker",
+    "age": "Unknown",
+    "home": "Anywhere",
+    "thumbnail": {
+      "small": "images/stalker_head.png",
+      "medium": "images/stalker_head.png",
+      "large": "images/stalker_head.png",
+      "default": "images/stalker_head.png"
+    },
+    "costumes": [
+    { "name": "Skills", "img": "images/stalker_1.png" },
+    { "name": "Experience", "img": "images/stalker_2.png" },
+    { "name": "Projects", "img": "images/stalker_3.png" }
+    ]
+  },
+  {
+    "nickname": "Adventurer",
+    "class": "Exploration",
+    "class_ability": [
+      {
+        "type": "Exploration",
+        "title": "Zabimaru's Reach",
+        "desc": "Increased melee and slash range."
+      }
+    ],
+    "quote": "Bankai! Hihi\u014d Zabimaru!",
+    "type": "Exploration",
+    "desc": "<p>Renji Abarai is a fiery lieutenant with fierce loyalty and devastating power. His attacks overwhelm foes with relentless strikes and deadly range.</p>",
+    "name": "Adventurer",
+    "age": "Unknown",
+    "home": "N/A",
+    "thumbnail": {
+      "small": "images/advent_head.png",
+      "medium": "images/advent_head.png",
+      "large": "images/advent_head.png",
+      "default": "images/advent_head.png"
+    },
+    "costumes": [
+    { "name": "Shinigami Robe", "img": "images/ichigo2.webp" },
+    { "name": "Hollow Mask", "img": "images/ichigo_bankai.jpg" },
+    { "name": "Final Getsuga", "img": "images/ichigo_fullbringer.jpg" }
+  ],
+    "ability": [
+      {
+        "type": "Tactical Ability",
+        "title": "Coiled Strike",
+        "desc": "Whip out Zabimaru in an arc, damaging multiple enemies.",
+        "icon": "https://example.com/coil.png"
+      },
+      {
+        "type": "Passive Ability",
+        "title": "Combat Flow",
+        "desc": "Each hit restores a bit of stamina.",
+        "icon": "https://example.com/flow.png"
+      },
+      {
+        "type": "Ultimate Ability",
+        "title": "Bankai: S\u014d\u014d Zabimaru",
+        "desc": "Unleash a giant skeletal snake for a devastating area attack.",
+        "icon": "https://example.com/bankai_zabimaru.png"
+      }
+    ],
+    "yt_trailer": "https://www.youtube.com/watch?v=trailer_renji",
+    "_id": {
+      "$oid": "4809b2f2-f7be-494f-a889-989d7a97e703"
+    }
+  },
+  {
+    "nickname": "Software  Developer",
+    "class": "",
+    "class_ability": [
+      {
+        "type": "Passive",
+        "title": "Illusion Field",
+        "desc": "Creates a phantom decoy when spotted."
+      }
+    ],
+    "quote": "Admiration is the furthest thing from understanding.",
+    "type": "Illusionist Overlord",
+    "desc": "<p>Once a respected captain, Aizen betrayed the Soul Society for his own godlike ambitions. His hypnotic powers make perception his deadliest weapon.</p>",
+    "name": "Software Developer",
+    "age": "Unknown",
+    "home": "Soul Society",
+    "thumbnail": {
+      "small": "images/dev_head.png",
+      "medium": "images/dev_head.png",
+      "large": "images/dev_head.png",
+      "default": "images/dev_head.png"
+    },"costumes": [
+    { "name": "Shinigami Robe", "img": "images/ichigo2.webp" },
+    { "name": "Hollow Mask", "img": "images/ichigo_bankai.jpg" },
+    { "name": "Final Getsuga", "img": "images/ichigo_fullbringer.jpg" }
+  ],
+    "ability": [
+      {
+        "type": "Tactical Ability",
+        "title": "Kyoka Suigetsu",
+        "desc": "Cast complete hypnosis, disorienting enemies\u2019 vision for 5 seconds.",
+        "icon": "https://example.com/kyoka.png"
+      },
+      {
+        "type": "Passive Ability",
+        "title": "Mind Veil",
+        "desc": "You\u2019re invisible on minimaps and targeting systems while still.",
+        "icon": "https://example.com/veil.png"
+      },
+      {
+        "type": "Ultimate Ability",
+        "title": "Hogyoku Ascension",
+        "desc": "Temporarily ascend into a higher form, gaining invulnerability and powerful AoE pulses.",
+        "icon": "https://example.com/hogyoku.png"
+      }
+    ],
+    "yt_trailer": "https://www.youtube.com/watch?v=trailer_aizen",
+    "_id": {
+      "$oid": "30d2f362-d192-4cc5-bb5d-bb5d95631f80"
+    }
+  },
+  {
+    "nickname": "LOCKED",
+    "class": "N/A",
+    "class_ability": [
+      {
+        "type": "N/A",
+        "title": "N/A",
+        "desc": "N/A"
+      }
+    ],
+    "quote": "",
+    "type": "",
+    "desc": "<p>N/A</p>",
+    "name": "N/A",
+    "age": "N/A",
+    "home": "Soul Society",
+    "thumbnail": {
+      "small": "images/lock.png",
+      "medium": "images/lock.png",
+      "large": "images/lock.png",
+      "default": "images/lock.png"
+    },
+    "ability": [
+      {
+        "type": "N/A",
+        "title": "N/A",
+        "desc": "N/A",
+        "icon": "N/A"
+      },
+      {
+        "type": "N/A",
+        "title": "N/A",
+        "desc": "N/A",
+        "icon": "https://example.com/grace.png"
+      },
+      {
+        "type": "N/A",
+        "title": "N/A",
+        "desc": "N/A",
+        "icon": "N/A"
+      }
+    ],
+    "yt_trailer": "https://www.youtube.com/watch?v=trailer_rukia",
+    "_id": {
+      "$oid": "e0583adb-b1e8-4d51-ade9-5bf6ef4e7155"
+    }
+  }
+  ,
+  {
+    "nickname": "LOCKED",
+    "class": "N/A",
+    "class_ability": [
+      {
+        "type": "N/A",
+        "title": "N/A",
+        "desc": "N/A"
+      }
+    ],
+    "quote": "",
+    "type": "",
+    "desc": "<p>N/A</p>",
+    "name": "N/A",
+    "age": "N/A",
+    "home": "Soul Society",
+    "thumbnail": {
+      "small": "images/lock.png",
+      "medium": "images/lock.png",
+      "large": "images/lock.png",
+      "default": "images/lock.png"
+    },
+    "ability": [
+      {
+        "type": "N/A",
+        "title": "N/A",
+        "desc": "N/A",
+        "icon": "N/A"
+      },
+      {
+        "type": "N/A",
+        "title": "N/A",
+        "desc": "N/A",
+        "icon": "https://example.com/grace.png"
+      },
+      {
+        "type": "N/A",
+        "title": "N/A",
+        "desc": "N/A",
+        "icon": "N/A"
+      }
+    ],
+    "yt_trailer": "https://www.youtube.com/watch?v=trailer_rukia",
+    "_id": {
+      "$oid": "e0583adb-b1e8-4d51-ade9-5bf6ef4e7155"
+    }
+  }
+  ,
+  {
+    "nickname": "LOCKED",
+    "class": "N/A",
+    "class_ability": [
+      {
+        "type": "N/A",
+        "title": "N/A",
+        "desc": "N/A"
+      }
+    ],
+    "quote": "",
+    "type": "",
+    "desc": "<p>N/A</p>",
+    "name": "N/A",
+    "age": "N/A",
+    "home": "Soul Society",
+    "thumbnail": {
+      "small": "images/lock.png",
+      "medium": "images/lock.png",
+      "large": "images/lock.png",
+      "default": "images/lock.png"
+    },
+    "ability": [
+      {
+        "type": "N/A",
+        "title": "N/A",
+        "desc": "N/A",
+        "icon": "N/A"
+      },
+      {
+        "type": "N/A",
+        "title": "N/A",
+        "desc": "N/A",
+        "icon": "https://example.com/grace.png"
+      },
+      {
+        "type": "N/A",
+        "title": "N/A",
+        "desc": "N/A",
+        "icon": "N/A"
+      }
+    ],
+    "yt_trailer": "https://www.youtube.com/watch?v=trailer_rukia",
+    "_id": {
+      "$oid": "e0583adb-b1e8-4d51-ade9-5bf6ef4e7155"
+    }
+  }
+  ,
+  {
+    "nickname": "LOCKED",
+    "class": "N/A",
+    "class_ability": [
+      {
+        "type": "N/A",
+        "title": "N/A",
+        "desc": "N/A"
+      }
+    ],
+    "quote": "",
+    "type": "",
+    "desc": "<p>N/A</p>",
+    "name": "N/A",
+    "age": "N/A",
+    "home": "Soul Society",
+    "thumbnail": {
+      "small": "images/lock.png",
+      "medium": "images/lock.png",
+      "large": "images/lock.png",
+      "default": "images/lock.png"
+    },
+    "ability": [
+      {
+        "type": "N/A",
+        "title": "N/A",
+        "desc": "N/A",
+        "icon": "N/A"
+      },
+      {
+        "type": "N/A",
+        "title": "N/A",
+        "desc": "N/A",
+        "icon": "https://example.com/grace.png"
+      },
+      {
+        "type": "N/A",
+        "title": "N/A",
+        "desc": "N/A",
+        "icon": "N/A"
+      }
+    ],
+    "yt_trailer": "https://www.youtube.com/watch?v=trailer_rukia",
+    "_id": {
+      "$oid": "e0583adb-b1e8-4d51-ade9-5bf6ef4e7155"
+    }
+  },
+    {
+      "nickname": "LOCKED",
+      "class": "N/A",
+      "class_ability": [
+        {
+          "type": "N/A",
+          "title": "N/A",
+          "desc": "N/A"
+        }
+      ],
+      "quote": "",
+      "type": "",
+      "desc": "<p>N/A</p>",
+      "name": "N/A",
+      "age": "N/A",
+      "home": "Soul Society",
+      "thumbnail": {
+        "small": "images/lock.png",
+        "medium": "images/lock.png",
+        "large": "images/lock.png",
+        "default": "images/lock.png"
+      },
+      "ability": [
+        {
+          "type": "N/A",
+          "title": "N/A",
+          "desc": "N/A",
+          "icon": "N/A"
+        },
+        {
+          "type": "N/A",
+          "title": "N/A",
+          "desc": "N/A",
+          "icon": "https://example.com/grace.png"
+        },
+        {
+          "type": "N/A",
+          "title": "N/A",
+          "desc": "N/A",
+          "icon": "N/A"
+        }
+      ],
+      "yt_trailer": "https://www.youtube.com/watch?v=trailer_rukia",
+      "_id": {
+        "$oid": "e0583adb-b1e8-4d51-ade9-5bf6ef4e7155"
+      }
+    }
+    ,
+    {
+      "nickname": "LOCKED",
+      "class": "N/A",
+      "class_ability": [
+        {
+          "type": "N/A",
+          "title": "N/A",
+          "desc": "N/A"
+        }
+      ],
+      "quote": "",
+      "type": "",
+      "desc": "<p>N/A</p>",
+      "name": "N/A",
+      "age": "N/A",
+      "home": "Soul Society",
+      "thumbnail": {
+        "small": "images/lock.png",
+        "medium": "images/lock.png",
+        "large": "images/lock.png",
+        "default": "images/lock.png"
+      },
+      "ability": [
+        {
+          "type": "N/A",
+          "title": "N/A",
+          "desc": "N/A",
+          "icon": "N/A"
+        },
+        {
+          "type": "N/A",
+          "title": "N/A",
+          "desc": "N/A",
+          "icon": "https://example.com/grace.png"
+        },
+        {
+          "type": "N/A",
+          "title": "N/A",
+          "desc": "N/A",
+          "icon": "N/A"
+        }
+      ],
+      "yt_trailer": "https://www.youtube.com/watch?v=trailer_rukia",
+      "_id": {
+        "$oid": "e0583adb-b1e8-4d51-ade9-5bf6ef4e7155"
+      }
+
+    }
+    ,{
+      "nickname": "LOCKED",
+      "class": "N/A",
+      "class_ability": [
+        {
+          "type": "N/A",
+          "title": "N/A",
+          "desc": "N/A"
+        }
+      ],
+      "quote": "",
+      "type": "",
+      "desc": "<p>N/A</p>",
+      "name": "N/A",
+      "age": "N/A",
+      "home": "Soul Society",
+      "thumbnail": {
+        "small": "images/lock.png",
+        "medium": "images/lock.png",
+        "large": "images/lock.png",
+        "default": "images/lock.png"
+      },
+      "ability": [
+        {
+          "type": "N/A",
+          "title": "N/A",
+          "desc": "N/A",
+          "icon": "N/A"
+        },
+        {
+          "type": "N/A",
+          "title": "N/A",
+          "desc": "N/A",
+          "icon": "https://example.com/grace.png"
+        },
+        {
+          "type": "N/A",
+          "title": "N/A",
+          "desc": "N/A",
+          "icon": "N/A"
+        }
+      ],
+      "yt_trailer": "https://www.youtube.com/watch?v=trailer_rukia",
+      "_id": {
+        "$oid": "e0583adb-b1e8-4d51-ade9-5bf6ef4e7155"
+      }
+    }
+    ,
+    {
+      "nickname": "LOCKED",
+      "class": "N/A",
+      "class_ability": [
+        {
+          "type": "N/A",
+          "title": "N/A",
+          "desc": "N/A"
+        }
+      ],
+      "quote": "",
+      "type": "",
+      "desc": "<p>N/A</p>",
+      "name": "N/A",
+      "age": "N/A",
+      "home": "Soul Society",
+      "thumbnail": {
+        "small": "images/lock.png",
+        "medium": "images/lock.png",
+        "large": "images/lock.png",
+        "default": "images/lock.png"
+      },
+      "ability": [
+        {
+          "type": "N/A",
+          "title": "N/A",
+          "desc": "N/A",
+          "icon": "N/A"
+        },
+        {
+          "type": "N/A",
+          "title": "N/A",
+          "desc": "N/A",
+          "icon": "https://example.com/grace.png"
+        },
+        {
+          "type": "N/A",
+          "title": "N/A",
+          "desc": "N/A",
+          "icon": "N/A"
+        }
+      ],
+      "yt_trailer": "https://www.youtube.com/watch?v=trailer_rukia",
+      "_id": {
+        "$oid": "e0583adb-b1e8-4d51-ade9-5bf6ef4e7155"
+      }
+    },
+
+    {
+      "nickname": "LOCKED",
+      "class": "N/A",
+      "class_ability": [
+        {
+          "type": "N/A",
+          "title": "N/A",
+          "desc": "N/A"
+        }
+      ],
+      "quote": "",
+      "type": "",
+      "desc": "<p>N/A</p>",
+      "name": "N/A",
+      "age": "N/A",
+      "home": "Soul Society",
+      "thumbnail": {
+        "small": "images/lock.png",
+        "medium": "images/lock.png",
+        "large": "images/lock.png",
+        "default": "images/lock.png"
+      },
+      "ability": [
+        {
+          "type": "N/A",
+          "title": "N/A",
+          "desc": "N/A",
+          "icon": "N/A"
+        },
+        {
+          "type": "N/A",
+          "title": "N/A",
+          "desc": "N/A",
+          "icon": "https://example.com/grace.png"
+        },
+        {
+          "type": "N/A",
+          "title": "N/A",
+          "desc": "N/A",
+          "icon": "N/A"
+        }
+      ],
+      "yt_trailer": "https://www.youtube.com/watch?v=trailer_rukia",
+      "_id": {
+        "$oid": "e0583adb-b1e8-4d51-ade9-5bf6ef4e7155"
+      }
+    }
+    ,
+    {
+      "nickname": "LOCKED",
+      "class": "N/A",
+      "class_ability": [
+        {
+          "type": "N/A",
+          "title": "N/A",
+          "desc": "N/A"
+        }
+      ],
+      "quote": "",
+      "type": "",
+      "desc": "<p>N/A</p>",
+      "name": "N/A",
+      "age": "N/A",
+      "home": "Soul Society",
+      "thumbnail": {
+        "small": "images/lock.png",
+        "medium": "images/lock.png",
+        "large": "images/lock.png",
+        "default": "images/lock.png"
+      },
+      "ability": [
+        {
+          "type": "N/A",
+          "title": "N/A",
+          "desc": "N/A",
+          "icon": "N/A"
+        },
+        {
+          "type": "N/A",
+          "title": "N/A",
+          "desc": "N/A",
+          "icon": "https://example.com/grace.png"
+        },
+        {
+          "type": "N/A",
+          "title": "N/A",
+          "desc": "N/A",
+          "icon": "N/A"
+        }
+      ],
+      "yt_trailer": "https://www.youtube.com/watch?v=trailer_rukia",
+      "_id": {
+        "$oid": "e0583adb-b1e8-4d51-ade9-5bf6ef4e7155"
+      }
+    
+  },
+  {
+    "nickname": "RANDOM",
+    "class": "N/A",
+    "class_ability": [
+      {
+        "type": "N/A",
+        "title": "N/A",
+        "desc": "N/A"
+      }
+    ],
+    "quote": "",
+    "type": "",
+    "desc": "<p>N/A</p>",
+    "name": "N/A",
+    "age": "N/A",
+    "home": "Soul Society",
+    "thumbnail": {
+      "small": "images/randome_char.png",
+      "medium": "images/randome_char.png",
+      "large": "images/randome_char.png",
+      "default": "images/randome_char.png"
+    },
+    "ability": [
+      {
+        "type": "N/A",
+        "title": "N/A",
+        "desc": "N/A",
+        "icon": "N/A"
+      },
+      {
+        "type": "N/A",
+        "title": "N/A",
+        "desc": "N/A",
+        "icon": "https://example.com/grace.png"
+      },
+      {
+        "type": "N/A",
+        "title": "N/A",
+        "desc": "N/A",
+        "icon": "N/A"
+      }
+    ],
+    "yt_trailer": "https://www.youtube.com/watch?v=trailer_rukia",
+    "_id": {
+      "$oid": "e0583adb-b1e8-4d51-ade9-5bf6ef4e7155"
+    }
+  }
+]
